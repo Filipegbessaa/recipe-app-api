@@ -11,3 +11,5 @@ COPY ./app /app
 
 RUN adduser -D user
 USER user
+
+RUN pip install flake8
